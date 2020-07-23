@@ -1,0 +1,29 @@
+class muscle:
+    def __init__(self, origin, insertion, joint_action):
+        self.origin = origin
+        self.insertion = insertion
+        self.joint_action = joint_action
+
+pect_major = muscle("sternum", "humerus", "arm adduction, arm flexion")
+iliopsoas = muscle("ilac fossa, spine T12 L1", "femur lesser trochanter", "hip flexion, spine rotation")
+psoas_major = muscle("spine T12 L1 L2 L3 L4 L5", "femur lesser trochanter", "laterally flexes and rotates femur")
+tfl = muscle("ilac crest", "iliotibial tract", "femur flexion, femur medial rotation")
+erector_spinae = muscle("spine T12 T11 T10 T9", "spine T1 C1", "spine extension")
+latissimus_dorsi = muscle("spine T12 L1 L5 pelvis", "upper humerus", "adduction extension medial rotation of humerus, retraction depression of shoulder")
+bicep_brachii = muscle("scapula coracoid process, supraglenoid tubercle", "radius tuberosity", "elbow flexion, forearm supination")
+brachioradialis = muscle("humerus lateral supracondylar ridge", "radius lateral surface of distant end")
+anterior_deltoid = muscle("clavicle lateral third", "deltoid tuberosity", "shoulder flexion, shoulder horizontal adduction, shoulder internal rotation, shoulder abduction")
+middle_deltoid = muscle("scapula lateral margin superior surface acromion", "deltoid tuberosity", "shoulder abduction")
+posterior_deltoid = muscle("scapula inferior posterior border", "deltoid tuberosity", "shoulder horizontal abduction, shoulder extension, shoulder external rotation" )
+subscapularis = muscle("subscapular fossa", "humerus lesser tuberosity", "shoulder medial rotation")
+teres_major = muscle("scapula axillary order inferior angle", "humerus lesser tubercle crest", "shoulder medial rotation, shoulder adduction, shoulder extension" )
+teres_minor = muscle("scapula lateral border", "humerus greater tubercle", "shoulder external rotation")
+infraspinatus = muscle("scapula infraspinous fossa", "humerus greater tubercle", "shoulder external rotation")
+triceps_long = muscle("scapula infraglenoid tubercle", "ulna olecranon", "elbow extension, shoulder extension")
+triceps_lateral = muscle("humerus shaft top posterior", "ulna olecranon", "elbow extension")
+triceps_medial = muscle("humerus shaft bottom posterior", "ulna olecranon", "elbow extension")
+extensor_carpi_radialis_longus = muscle("humerus lateral supracondylar ridge", "dorsal surface base second metacarpal bone", "wrist extension, radial abduction")
+anconeus = muscle("humerus lateral epicondyle", "ulna lateral surface olecranon and superior part of posteriror surface", "elbow extension")
+upper_trapezius = muscle("occipital bone, nuchal ligament, spinous process of C7", "clavicle lateral third", "scapula elevation, scapula upward rotation, scapula adduction, scapula extension")
+middle_trapezius = muscle("spinous process of T1 T2 T3 T4", "scapula acromion process, superior border spine of scapula", "scapula adduction")
+lower_trapezius = muscle("spinous processes of T5 T6 T7 T8 T9 T10 T11 T12", "spine of scapula medial third")

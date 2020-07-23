@@ -1,0 +1,9 @@
+class user:
+    def __init__(self, name, age, weight, height, primary_goal, secondary_goal, limitations):
+        self.name = name
+        self.age = age
+        self.weight = weight
+        self.height = height
+        self.primary_goal = primary_goal
+        self.secondary_goal = secondary_goal
+        self.limitations = limitations

@@ -1,0 +1,7 @@
+class exercise:
+    def __init__(self, concentric, eccentric, equipment, type):
+        self.concentric = concentric
+        self.eccentric = eccentric
+        self.equipment = equipment
+        self.type = type
+        
