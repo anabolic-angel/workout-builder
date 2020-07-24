@@ -3,5 +3,5 @@ class exercise:
         self.concentric = concentric
         self.eccentric = eccentric
         self.equipment = equipment
-        self.type = type
+        self.type = type    # for type use: power, strength, endurance
         
