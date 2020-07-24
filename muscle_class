@@ -31,3 +31,6 @@ middle_trapezius = muscle("spinous process of T1 T2 T3 T4", "scapula acromion pr
 lower_trapezius = muscle("spinous processes of T5 T6 T7 T8 T9 T10 T11 T12", "spine of scapula medial third")
 sternocleidomastoid = muscle("manubrium medial portion clavicle", "mastid process of the temporal bone superior nuchal line", "neck flexion, head extension, neck lateral flexion, neck rotation")
 sternohyoid = muscle("manubrium of sternum", "hyoid bone inferior border", "hyoid depression")
+rectus_abdominis = muscle("pubic symphysis, ramus of pubic", "coastal cartilage of ribs 5 6 7, sternum xiphoid process", "spinal flexion, fixed thorax posterior pelvic tilt")
+internal oblique = muscle("thoracolumbar fascia, iliac crest middle lip, inguinal ligament lateral 2/3", "lower 3 ribs, linea alba, pubic crest", "horizontal rotation, spine flexion, spine lateral flexion, posterior pelvic tilt")
+
