@@ -54,4 +54,7 @@ soleus = muscle("tibia soleal line, fibula head and dorsal surface", "posterior 
 peroneus_tertius = muscle("fibula distal third of the anterior surface and interosseous membrane, anterior intermuscular septum", base metatarsal dorsal surface 5", "ankle dorsi flexion, foot eversion")
 peroneus_longus = muscle("fibula upper 1/2-2/3 of lateral fibular shaft surface, proximal head and head of fibula", "medial cuneiform, lateral side of metatarsal base 1", "foot eversion, ankle plantar flexion")
 tibialis_anterior = muscle("tibia lateral condyle and lateral surface of upper half tibia, interosseous membrance and crural fascia", "medial and plantar surface of medial coneiform, metatarsal bone base 1", "ankle dorsiflexion, foot eversion")
-abductor digiti minimi = muscle("medial and lateral processes of the calcaneal tuberosity, plantar aponeurosis", "
+abductor digiti minimi = muscle("medial and lateral processes of the calcaneal tuberosity, plantar aponeurosis", "lateral side base of proximal phalanx toe 1", "abduction mp joint toe 1, flexion of the mp joint toe 1")
+flexor_digitorum_brevis = muscle("medial processus of the calcaneal tuberosity", "middle phalanx lateral toe 1 2 3 4", "flexion toe 1 2 3 4")
+abductor_halluci = muscle("medial aspect of the calcaneus plantar surface", "middle phalanx lateral toe 5", "abduction toe 5, flexion toe 5")
+
