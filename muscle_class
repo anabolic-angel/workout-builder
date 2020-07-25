@@ -57,4 +57,11 @@ tibialis_anterior = muscle("tibia lateral condyle and lateral surface of upper h
 abductor digiti minimi = muscle("medial and lateral processes of the calcaneal tuberosity, plantar aponeurosis", "lateral side base of proximal phalanx toe 1", "abduction mp joint toe 1, flexion of the mp joint toe 1")
 flexor_digitorum_brevis = muscle("medial processus of the calcaneal tuberosity", "middle phalanx lateral toe 1 2 3 4", "flexion toe 1 2 3 4")
 abductor_halluci = muscle("medial aspect of the calcaneus plantar surface", "middle phalanx lateral toe 5", "abduction toe 5, flexion toe 5")
+flexor_digitorum_profundus = muscle("ulna, interosseous membrane", "base distal 1 2 3 4 phalanges", "flexes distal phalanx 1 2 3 4, wrist flexion")
+flexor_digitorum_superficialis = muscle("humerus medial epycondyle, ulna, radius", "middle phalanx 1 2 3 4", "flexes middle and proximal phalanges fingers 1 2 3 4, wrist flexion")
+flexor_carpi_radialis = muscle("humerus medial epicondyle", "metacarpal bones", "wrist flexion, wrist abduction radial deviation")
+palmaris_longus = muscle("humerus medial epicondyle", "palmar carpal ligament", "wrist flexion")
+flexor_carpi_ulnaris = muscle("humerus medial epicondyle", "pisiform bone, hook of hamate bone, metacarpal bone 1", "wrist flexion, wrist adduction ulna deviation")
+
+
 
