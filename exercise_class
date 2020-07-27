@@ -22,3 +22,5 @@ class dumbbell(exercise):
 push_up = floor("shoulder flexion, elbow extension", "shoulder extension, elbow flexion", "hollow body, posterior pelvic tilt, knee extension, ankle flexion", "bilateral")
 pull_up = pullup_bar("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction", "hollow body, posterior pelvic tilt","bilateral")
 deadlift = barbell("hip extension, knee extension", "hip flexion, knee flexion", "hollow body, shoulder external rotation, shoulder adduction", "bilateral"
+russian_swing = kettlebell("hip extension, knee extension, elbow flexion,", "hip flexion, knee flexion, elbow extension", "hollow body", "bilateral")
+american_swing = kettlebell("hip extension, knee extension, shoulder flexion", "hip flexion, knee flexion, shoulder extension", "hollow body", "bilateral")
