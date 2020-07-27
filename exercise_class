@@ -1,7 +1,21 @@
 class exercise:
-    def __init__(self, concentric, eccentric, equipment, type):
-        self.concentric = concentric
-        self.eccentric = eccentric
-        self.equipment = equipment
-        self.type = type    # for type use: power, strength, endurance
+    def __init__(self, concentric, eccentric, active, equipment, type):
+        self.concentric = concentric #joint actions
+        self.eccentric = eccentric   #joint actions
+        self.active = active
+        self.type = type    # for type use: bilateral, unilateral
         
+class barbell(exercise):
+
+class kettlebell(exercise):
+
+class pullup_bar(exercise):
+
+class floor(exercise):
+
+
+
+
+        
+push_up = floor("shoulder flexion, elbow extension", "shoulder extension, elbow flexion", "hollow body, posterior pelvic tilt, knee extension, ankle flexion", "bilateral")
+pull_up = pullup_bar("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction", "hollow body, posterior pelvic tilt","bilateral")
