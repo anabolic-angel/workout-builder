@@ -1,11 +1,12 @@
 class exercise:
-    def __init__(self, concentric, eccentric, active, equipment, type):
+    def __init__(self, concentric, eccentric, active, type, equipment):
         self.concentric = concentric #joint actions
         self.eccentric = eccentric   #joint actions
         self.active = active
         self.type = type    # for type use: bilateral, unilateral
+        self.equipment = equipment 
+
         
-class barbell(exercise):
 
 class kettlebell(exercise):
 
@@ -19,8 +20,8 @@ class dumbbell(exercise):
 
 
         
-push_up = floor("shoulder flexion, elbow extension", "shoulder extension, elbow flexion", "hollow body, posterior pelvic tilt, knee extension, ankle flexion", "bilateral")
-pull_up = pullup_bar("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction", "hollow body, posterior pelvic tilt","bilateral")
-deadlift = barbell("hip extension, knee extension", "hip flexion, knee flexion", "hollow body, shoulder external rotation, shoulder adduction", "bilateral"
-russian_swing = kettlebell("hip extension, knee extension, elbow flexion,", "hip flexion, knee flexion, elbow extension", "hollow body", "bilateral")
-american_swing = kettlebell("hip extension, knee extension, shoulder flexion", "hip flexion, knee flexion, shoulder extension", "hollow body", "bilateral")
+push_up = floor("shoulder flexion, elbow extension", "shoulder extension, elbow flexion", "hollow body, posterior pelvic tilt, knee extension, ankle flexion", "bilateral", null)
+pull_up = pullup_bar("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction", "hollow body, posterior pelvic tilt","bilateral", null)
+deadlift = barbell("hip extension, knee extension", "hip flexion, knee flexion", "hollow body, shoulder external rotation, shoulder adduction", "bilateral", null)
+russian_swing = kettlebell("hip extension, knee extension, elbow flexion,", "hip flexion, knee flexion, elbow extension", "hollow body", "bilateral", null)
+american_swing = kettlebell("hip extension, knee extension, shoulder flexion", "hip flexion, knee flexion, shoulder extension", "hollow body", "bilateral", null)
