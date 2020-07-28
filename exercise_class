@@ -28,3 +28,4 @@ american_swing = kettlebell("hip extension, knee extension, shoulder flexion", "
 back_squat = barbell("hip flexion, knee flexion, ankle dorsiflexion", "hip extension, knee extension, ankle plantarflexion", "hollow body", "bilateral", null)
 overhead_press = barbell("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction, elbow extension", "hollow body", "bilateral", null)
 push_press = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder extension, shoulder adduction, elbow flexion", "hip extension, knee extension, ankle plantarflexion", "shoulder flexion, shoulder abduction, elbow extension", "hollow body", "bilateral", null)
+bent_over_row = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder extension, shoulder abduction, shoulder external rotation, elbow flexion, scapular retraction, scapular depression", "shoulder flexion, shoulder internal rotation, elbow extension", "hollow body", null)
