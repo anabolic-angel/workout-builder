@@ -25,3 +25,6 @@ pull_up = pullup_bar("shoulder extension, shoulder adduction, elbow flexion", "s
 deadlift = barbell("hip extension, knee extension", "hip flexion, knee flexion", "hollow body, shoulder external rotation, shoulder adduction", "bilateral", null)
 russian_swing = kettlebell("hip extension, knee extension, elbow flexion,", "hip flexion, knee flexion, elbow extension", "hollow body", "bilateral", null)
 american_swing = kettlebell("hip extension, knee extension, shoulder flexion", "hip flexion, knee flexion, shoulder extension", "hollow body", "bilateral", null)
+back_squat = barbell("hip flexion, knee flexion, ankle dorsiflexion", "hip extension, knee extension, ankle plantarflexion", "hollow body", "bilateral", null)
+overhead_press = barbell("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction, elbow extension", "hollow body", "bilateral", null)
+push_press = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder extension, shoulder adduction, elbow flexion", "hip extension, knee extension, ankle plantarflexion", "shoulder flexion, shoulder abduction, elbow extension", "hollow body", "bilateral", null)
