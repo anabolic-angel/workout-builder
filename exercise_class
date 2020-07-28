@@ -13,6 +13,8 @@ class kettlebell(exercise):
 class pullup_bar(exercise):
 
 class floor(exercise):
+     def __init__(contact):  #part(s) of body touching the floor
+         self.contact = contact
 
 class dumbbell(exercise):
 
@@ -20,7 +22,7 @@ class barbell(exercise):
 
 
         
-push_up = floor("shoulder flexion, elbow extension", "shoulder extension, elbow flexion", "hollow body, posterior pelvic tilt, knee extension, ankle flexion", "bilateral", null)
+push_up = floor("shoulder flexion, elbow extension", "shoulder extension, elbow flexion", "hollow body, posterior pelvic tilt, knee extension, ankle flexion", "bilateral", null, "left palm, right palm, left toes, right toes")
 pull_up = pullup_bar("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction", "hollow body, posterior pelvic tilt","bilateral", null)
 deadlift = barbell("hip extension, knee extension", "hip flexion, knee flexion", "hollow body, shoulder external rotation, shoulder adduction", "bilateral", null)
 russian_swing = kettlebell("hip extension, knee extension, elbow flexion,", "hip flexion, knee flexion, elbow extension", "hollow body", "bilateral", null)
@@ -31,3 +33,8 @@ push_press = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder 
 bent_over_row = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder flexion, shoulder internal rotation, elbow extension", "shoulder extension, shoulder abduction, shoulder external rotation, elbow flexion, scapular retraction, scapular depression", "hollow body", "bilateral" null)
 bench_press = barbell("shoulder extension, shoulder abduction, shoulder external rotation, elbow flexion, scapular retraction, scapular depression", "shoulder flexion, shoulder internal rotation, elbow extension", "hollow body, anterior pelvic tilt, knee flexion, "bilateral", null)
 deadlift = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder internal rotation, shoulder flexion, elbow extension", "hip extension, knee extension, ankle plantar flexion", "shoulder external rotation, shoulder extension", "hollow body", "bilateral", null) 
+glute_bridge = floor("hip extension", "hip flexion", "knee flexion", "bilateral", null, "left foot, right foot, trapezius")
+hanging_knee_raise = pullup,_bar("hip flexion, knee flexion, spine flexion", "hip extension, knee extension, spine extension", "hollow body, shoulder flexion", "bilateral", null)
+beast = floor(null, null, "hip flexion, knee flexion, shoulder flexion, wrist extension, hollow body", "bilateral", null, "left palm, right palm, left toes, right toes")
+pistol_squat = floor("hip extension, knee extension, ankle extension", "hip flexion, knee flexion, ankle flexion", "hollow body, knee extension", "unilateral", null, "foot"
+
