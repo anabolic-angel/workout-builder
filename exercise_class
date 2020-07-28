@@ -37,4 +37,4 @@ glute_bridge = floor("hip extension", "hip flexion", "knee flexion", "bilateral"
 hanging_knee_raise = pullup,_bar("hip flexion, knee flexion, spine flexion", "hip extension, knee extension, spine extension", "hollow body, shoulder flexion", "bilateral", null)
 beast = floor(null, null, "hip flexion, knee flexion, shoulder flexion, wrist extension, hollow body", "bilateral", null, "left palm, right palm, left toes, right toes")
 pistol_squat = floor("hip extension, knee extension, ankle extension", "hip flexion, knee flexion, ankle flexion", "hollow body, knee extension", "unilateral", null, "foot"
-
+squat = floor("hip extension, knee extension, ankle extension", "hip flexion, knee flexion, ankle flexion", "hollow body", "bilateral", null, "left foot, right foot")
