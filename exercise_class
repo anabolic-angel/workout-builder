@@ -16,7 +16,7 @@ class floor(exercise):
 
 class dumbbell(exercise):
 
-
+class barbell(exercise):
 
 
         
