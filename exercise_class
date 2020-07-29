@@ -45,4 +45,7 @@ single_leg_deadlift = floor("hip extension, knee extension", "hip flexion, knee 
 wall_sit = floor(null, null, "hip flexion, knee flexion", "bilateral", "wall", "left foot, right foot")
 handstand = floor(null, null, "shoulder flexion, shoulder external rotation, wrist extension, hollow body, posterior pelvic tilt, knee extension, ankle extension", "bilateral", null, "left palm, right palm")
 reverse_flies = floor("shoulder external rotation, shoulder horizontal abduction, retraction", "shoulder internal rotation, shoulder horizontal adduction, protraction", "hollow body, hip flexion, knee flexion", "bilateral", null, "left foot, right foot")
+standing_calf_raises = floor("ankle extension", "ankle flexion", "posterior pelvic tilt, hollow body, knee extension", "bilateral", null, "left foot, right foot)
+l_sit = floor(null, null, "shoulder protraction, knee extension, ankle extension, hip flexion, spine flexion, hollow body", "bilateral", null, "left palm, right palm)
+
 
