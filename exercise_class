@@ -34,7 +34,15 @@ bent_over_row = barbell("hip flexion, knee flexion, ankle dorsiflexion", "should
 bench_press = barbell("shoulder extension, shoulder abduction, shoulder external rotation, elbow flexion, scapular retraction, scapular depression", "shoulder flexion, shoulder internal rotation, elbow extension", "hollow body, anterior pelvic tilt, knee flexion, "bilateral", null)
 deadlift = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder internal rotation, shoulder flexion, elbow extension", "hip extension, knee extension, ankle plantar flexion", "shoulder external rotation, shoulder extension", "hollow body", "bilateral", null) 
 glute_bridge = floor("hip extension", "hip flexion", "knee flexion", "bilateral", null, "left foot, right foot, trapezius")
-hanging_knee_raise = pullup,_bar("hip flexion, knee flexion, spine flexion", "hip extension, knee extension, spine extension", "hollow body, shoulder flexion", "bilateral", null)
+hanging_knee_raise = pullup_bar("hip flexion, knee flexion, spine flexion", "hip extension, knee extension, spine extension", "hollow body, shoulder flexion", "bilateral", null)
 beast = floor(null, null, "hip flexion, knee flexion, shoulder flexion, wrist extension, hollow body", "bilateral", null, "left palm, right palm, left toes, right toes")
 pistol_squat = floor("hip extension, knee extension, ankle extension", "hip flexion, knee flexion, ankle flexion", "hollow body, knee extension", "unilateral", null, "foot"
 squat = floor("hip extension, knee extension, ankle extension", "hip flexion, knee flexion, ankle flexion", "hollow body", "bilateral", null, "left foot, right foot")
+superman = floor("spine extension", "spine flexion", "hip extension, knee extension, ankle extension, shoulder flexion, elbow extension", "bilateral", null, "anterior pelvis")
+hanging_straight_leg_raise = pullup_bar("hip flexion, spine flexion", "hip extension, spine extension", "shoulder flexion, hollow body", "bilateral", null)
+crab = floor(null, null, "hip flexion, shoulder extension, knee flexion", "bilateral", null, "left palm, right palm, left foot, right foot")
+single_leg_deadlift = floor("hip extension, knee extension", "hip flexion, knee flexion", "knee extension, hollow body", "unilateral", null, "foot")
+wall_sit = floor(null, null, "hip flexion, knee flexion", "bilateral", "wall", "left foot, right foot")
+handstand = floor(null, null, "shoulder flexion, shoulder external rotation, wrist extension, hollow body, posterior pelvic tilt, knee extension, ankle extension", "bilateral", null, "left palm, right palm")
+reverse_flies = floor("shoulder external rotation, shoulder horizontal abduction, retraction", "shoulder internal rotation, shoulder horizontal adduction, protraction", "hollow body, hip flexion, knee flexion", "bilateral", null, "left foot, right foot")
+
