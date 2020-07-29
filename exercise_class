@@ -27,12 +27,11 @@ pull_up = pullup_bar("shoulder extension, shoulder adduction, elbow flexion", "s
 deadlift = barbell("hip extension, knee extension", "hip flexion, knee flexion", "hollow body, shoulder external rotation, shoulder adduction", "bilateral", null)
 russian_swing = kettlebell("hip extension, knee extension, elbow flexion,", "hip flexion, knee flexion, elbow extension", "hollow body", "bilateral", null)
 american_swing = kettlebell("hip extension, knee extension, shoulder flexion", "hip flexion, knee flexion, shoulder extension", "hollow body", "bilateral", null)
-back_squat = barbell("hip flexion, knee flexion, ankle dorsiflexion", "hip extension, knee extension, ankle plantarflexion", "hollow body", "bilateral", null)
+back_squat = barbell("shoulder flexion, shoulder adduction, elbow flexion", "hip flexion, knee flexion, ankle dorsiflexion", "hip extension, knee extension, ankle plantarflexion", "hollow body", "bilateral", null)
 overhead_press = barbell("shoulder extension, shoulder adduction, elbow flexion", "shoulder flexion, shoulder abduction, elbow extension", "hollow body", "bilateral", null)
 push_press = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder extension, shoulder adduction, elbow flexion", "hip extension, knee extension, ankle plantarflexion", "shoulder flexion, shoulder abduction, elbow extension", "hollow body", "bilateral", null)
-bent_over_row = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder flexion, shoulder internal rotation, elbow extension", "shoulder extension, shoulder abduction, shoulder external rotation, elbow flexion, scapular retraction, scapular depression", "hollow body", "bilateral" null)
+bent_over_row = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder extension, shoulder abduction, shoulder external rotation, elbow flexion, scapular retraction, scapular depression", "shoulder flexion, shoulder internal rotation, elbow extension", "hollow body", "bilateral" null)
 bench_press = barbell("shoulder extension, shoulder abduction, shoulder external rotation, elbow flexion, scapular retraction, scapular depression", "shoulder flexion, shoulder internal rotation, elbow extension", "hollow body, anterior pelvic tilt, knee flexion, "bilateral", null)
-deadlift = barbell("hip flexion, knee flexion, ankle dorsiflexion", "shoulder internal rotation, shoulder flexion, elbow extension", "hip extension, knee extension, ankle plantar flexion", "shoulder external rotation, shoulder extension", "hollow body", "bilateral", null) 
 glute_bridge = floor("hip extension", "hip flexion", "knee flexion", "bilateral", null, "left foot, right foot, trapezius")
 hanging_knee_raise = pullup_bar("hip flexion, knee flexion, spine flexion", "hip extension, knee extension, spine extension", "hollow body, shoulder flexion", "bilateral", null)
 beast = floor(null, null, "hip flexion, knee flexion, shoulder flexion, wrist extension, hollow body", "bilateral", null, "left palm, right palm, left toes, right toes")
@@ -47,5 +46,9 @@ handstand = floor(null, null, "shoulder flexion, shoulder external rotation, wri
 reverse_flies = floor("shoulder external rotation, shoulder horizontal abduction, retraction", "shoulder internal rotation, shoulder horizontal adduction, protraction", "hollow body, hip flexion, knee flexion", "bilateral", null, "left foot, right foot")
 standing_calf_raises = floor("ankle extension", "ankle flexion", "posterior pelvic tilt, hollow body, knee extension", "bilateral", null, "left foot, right foot)
 l_sit = floor(null, null, "shoulder protraction, knee extension, ankle extension, hip flexion, spine flexion, hollow body", "bilateral", null, "left palm, right palm)
+bicep_curl = barbell("elbow flexion", "elbow extension", "hollow body", "bilateral", null)
+front_raise = barbell("shoulder extension, shoulder external rotation", "shoulder flexion, shoulder internal rotation", "hollow body", "bilateral", null)
+standing_tricep_extension = barbell("shoulder extension, shoulder internal rotation, shoulder abduction, elbow flexion", "shoulder extension, shoulder external rotation, shoulder abduction, elbow flexion", "hollow body", "bilateral", null)
+
 
 
