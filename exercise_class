@@ -54,4 +54,4 @@ overhead_squat = barbell("hip flexion, knee flexion, ankle dorsiflexion", "hip e
 standing_calf_raise = barbell("ankle dorsiflexion", "ankle plantarflexion", "posterior pelvic tilt, shoulder flexion, shoulder adduction, elbow flexion, hollow body", "left foot, right foot", "bilateral", null)
 shrug = barbell("shoulder elevation", "shoulder depression", "elbow extension, hollow body", "left foot, right foot", "bilateral", null)
 upright_row = barbell("shoulder external rotation, shoulder adduction, elbow extension", "shoulder internal rotation, shoulder abduction, scapular elevation, scapular rotation, elbow flexion", "posterior pelvic tilt, hollow body, knee extension", "left foot, right foot", null)
-
+hip_thrust = barbell("hip flexion", "hip extension", "knee flexion, elbow flexion", "bilateral", "left foot, right foot", null)
