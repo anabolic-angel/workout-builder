@@ -51,9 +51,9 @@ front_raise = barbell("shoulder extension, shoulder external rotation", "shoulde
 standing_tricep_extension = barbell("shoulder extension, shoulder internal rotation, shoulder abduction, elbow flexion", "shoulder extension, shoulder external rotation, shoulder abduction, elbow flexion", "hollow body", "bilateral", "left foot, right foot", null)
 good_morning = barbell("hip flexion, knee flexion", "hip extension, knee extension", "shoulder flexion, shoulder adduction, elbow flexion, hollow body", "left foot, right foot", "bilateral" null)
 overhead_squat = barbell("hip flexion, knee flexion, ankle dorsiflexion", "hip extension, knee extension, ankle plantarflexion", "shoulder flexion, shoulder abduction, elbow extension, hollow body", "bilateral", null)
-standing_calf_raise = barbell("ankle dorsiflexion", "ankle plantarflexion", "posterior pelvic tilt, shoulder flexion, shoulder adduction, elbow flexion, hollow body", "left foot, right foot", "bilateral", null)
+standing_calf_raise = barbell("ankle plantarflexion", "ankle dorsiflexion", "posterior pelvic tilt, shoulder flexion, shoulder adduction, elbow flexion, hollow body", "left foot, right foot", "bilateral", null)
 shrug = barbell("shoulder elevation", "shoulder depression", "elbow extension, hollow body", "left foot, right foot", "bilateral", null)
-upright_row = barbell("shoulder external rotation, shoulder adduction, elbow extension", "shoulder internal rotation, shoulder abduction, scapular elevation, scapular rotation, elbow flexion", "posterior pelvic tilt, hollow body, knee extension", "left foot, right foot", null)
+upright_row = barbell("shoulder internal rotation, shoulder abduction, scapular elevation, scapular rotation, elbow flexion", "shoulder external rotation, shoulder adduction, elbow extension", "posterior pelvic tilt, hollow body, knee extension", "left foot, right foot", null)
 hip_thrust = barbell("hip flexion", "hip extension", "knee flexion, elbow flexion", "bilateral", "left foot, right foot", null)
 front_squat = barbell("hip flexion, knee flexion, ankle dorsiflexion", "hip extension, knee extension, ankle plantarflexion", "shoulder extension, shoulder protraction, elbow flexion, wrist extension, hollow body", "bilateral", "left foot, right foot", null)
 
