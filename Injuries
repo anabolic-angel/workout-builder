@@ -1,0 +1,5 @@
+class Injuries:
+  def __init__(self, name, beneficial_joint_actions, negative_joint_actions):
+    self.name = name
+    self.beneficial_joint_actions = positive
+    self.negative_joint_actions = negative
