@@ -14,3 +14,776 @@
  	12: What days can you train M-S
  	13: What range of time (pick 2) 30 minutes - 180 minutes
  	14: What's your level of experience never trained - athlete-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Fitness Questionnaire</title>
+	<script src="https://kit.fontawesome.com/665ee5be5c.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,700;1,600;1,700&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<table>
+		<th>Fitness Questionnaire</th>
+		<tr>
+			<td>1: What is your Gender?</td>
+			<td>
+				<select id="answer1"> 
+					<option>--Select--</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>2: How old are you?</td>
+			<td>
+				<select id="answer2">
+					<option>--Select--</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>
+					<option value="34">34</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+					<option value="37">37</option>
+					<option value="38">38</option>
+					<option value="39">39</option>
+					<option value="40">40</option>
+					<option value="41">41</option>
+					<option value="42">42</option>
+					<option value="43">43</option>
+					<option value="44">44</option>
+					<option value="45">45</option>
+					<option value="46">46</option>
+					<option value="47">47</option>
+					<option value="48">48</option>
+					<option value="49">49</option>
+					<option value="50">50</option>
+					<option value="51">51</option>
+					<option value="52">52</option>
+					<option value="53">53</option>
+					<option value="54">54</option>
+					<option value="55">55</option>
+					<option value="56">56</option>
+					<option value="57">57</option>
+					<option value="58">58</option>
+					<option value="59">59</option>
+					<option value="60">60</option>
+					<option value="61">61</option>
+					<option value="62">62</option>
+					<option value="63">63</option>
+					<option value="64">64</option>
+					<option value="65">65</option>
+					<option value="66">66</option>
+					<option value="67">67</option>
+					<option value="68">68</option>
+					<option value="69">69</option>
+					<option value="70">70</option>
+					<option value="71">71</option>
+					<option value="72">72</option>
+					<option value="73">73</option>
+					<option value="74">74</option>
+					<option value="75">75</option>
+					<option value="76">76</option>
+					<option value="77">77</option>
+					<option value="78">78</option>
+					<option value="79">79</option>
+					<option value="80">80</option>
+					<option value="81">81</option>
+					<option value="82">82</option>
+					<option value="83">83</option>
+					<option value="84">84</option>
+					<option value="85">85</option>
+					<option value="86">86</option>
+					<option value="87">87</option>
+					<option value="88">88</option>
+					<option value="89">89</option>
+					<option value="90">90</option>
+					<option value="91">91</option>
+					<option value="92">92</option>
+					<option value="93">93</option>
+					<option value="94">94</option>
+					<option value="95">95</option>
+					<option value="96">96</option>
+					<option value="97">97</option>
+					<option value="98">98</option>
+					<option value="99">99</option>
+					<option value="100">100</option>
+					<option value="101">101</option>
+					<option value="102">102</option>
+					<option value="103">103</option>
+					<option value="104">104</option>
+					<option value="105">105</option>
+					<option value="106">106</option>
+					<option value="107">107</option>
+					<option value="108">108</option>
+					<option value="109">109</option>
+					<option value="110">110</option>
+					<option value="111">111</option>
+					<option value="112">112</option>
+					<option value="113">113</option>
+					<option value="114">114</option>
+					<option value="115">115</option>
+					<option value="116">116</option>
+					<option value="117">117</option>
+					<option value="118">118</option>
+					<option value="119">119</option>
+					<option value="120">120</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>3: How much do you weigh?</td>
+			<td>
+				<select id="answer3">
+					<option>--Select--</option>
+					<option>60lbs</option>
+					<option>61lbs</option>
+					<option>62lbs</option>
+					<option>63lbs</option>
+					<option>64lbs</option>
+					<option>65lbs</option>
+					<option>66lbs</option>
+					<option>67lbs</option>
+					<option>68lbs</option>
+					<option>69lbs</option>
+					<option>70lbs</option>
+					<option>71lbs</option>
+					<option>72lbs</option>
+					<option>73lbs</option>
+					<option>74lbs</option>
+					<option>75lbs</option>
+					<option>76lbs</option>
+					<option>77lbs</option>
+					<option>78lbs</option>
+					<option>79lbs</option>
+					<option>80lbs</option>
+					<option>81lbs</option>
+					<option>82lbs</option>
+					<option>83lbs</option>
+					<option>84lbs</option>
+					<option>85lbs</option>
+					<option>86lbs</option>
+					<option>87lbs</option>
+					<option>88lbs</option>
+					<option>89lbs</option>
+					<option>90lbs</option>
+					<option>91lbs</option>
+					<option>92lbs</option>
+					<option>93lbs</option>
+					<option>94lbs</option>
+					<option>95lbs</option>
+					<option>96lbs</option>
+					<option>97lbs</option>
+					<option>98lbs</option>
+					<option>99lbs</option>
+					<option>100lbs</option>
+					<option>101lbs</option>
+					<option>102lbs</option>
+					<option>103lbs</option>
+					<option>104lbs</option>
+					<option>105lbs</option>
+					<option>106lbs</option>
+					<option>107lbs</option>
+					<option>108lbs</option>
+					<option>109lbs</option>
+					<option>110lbs</option>
+					<option>111lbs</option>
+					<option>112lbs</option>
+					<option>113lbs</option>
+					<option>114lbs</option>
+					<option>115lbs</option>
+					<option>116lbs</option>
+					<option>117lbs</option>
+					<option>118lbs</option>
+					<option>119lbs</option>
+					<option>120lbs</option>
+					<option>121lbs</option>
+					<option>122lbs</option>
+					<option>123lbs</option>
+					<option>124lbs</option>
+					<option>125lbs</option>
+					<option>126lbs</option>
+					<option>127lbs</option>
+					<option>128lbs</option>
+					<option>129lbs</option>
+					<option>130lbs</option>
+					<option>131lbs</option>
+					<option>132lbs</option>
+					<option>133lbs</option>
+					<option>134lbs</option>
+					<option>135lbs</option>
+					<option>136lbs</option>
+					<option>137lbs</option>
+					<option>138lbs</option>
+					<option>139lbs</option>
+					<option>140lbs</option>
+					<option>141lbs</option>
+					<option>142lbs</option>
+					<option>143lbs</option>
+					<option>144lbs</option>
+					<option>145lbs</option>
+					<option>146lbs</option>
+					<option>147lbs</option>
+					<option>148lbs</option>
+					<option>149lbs</option>
+					<option>150lbs</option>
+					<option>151lbs</option>
+					<option>152lbs</option>
+					<option>153lbs</option>
+					<option>154lbs</option>
+					<option>155lbs</option>
+					<option>156lbs</option>
+					<option>157lbs</option>
+					<option>158lbs</option>
+					<option>159lbs</option>
+					<option>160lbs</option>
+					<option>161lbs</option>
+					<option>162lbs</option>
+					<option>163lbs</option>
+					<option>164lbs</option>
+					<option>165lbs</option>
+					<option>166lbs</option>
+					<option>167lbs</option>
+					<option>168lbs</option>
+					<option>169lbs</option>
+					<option>170lbs</option>
+					<option>171lbs</option>
+					<option>172lbs</option>
+					<option>173lbs</option>
+					<option>174lbs</option>
+					<option>175lbs</option>
+					<option>176lbs</option>
+					<option>177lbs</option>
+					<option>178lbs</option>
+					<option>179lbs</option>
+					<option>180lbs</option>
+					<option>181lbs</option>
+					<option>182lbs</option>
+					<option>183lbs</option>
+					<option>184lbs</option>
+					<option>185lbs</option>
+					<option>186lbs</option>
+					<option>187lbs</option>
+					<option>188lbs</option>
+					<option>189lbs</option>
+					<option>190lbs</option>
+					<option>191lbs</option>
+					<option>192lbs</option>
+					<option>193lbs</option>
+					<option>194lbs</option>
+					<option>195lbs</option>
+					<option>196lbs</option>
+					<option>197lbs</option>
+					<option>198lbs</option>
+					<option>199lbs</option>
+					<option>200lbs</option>
+					<option>201lbs</option>
+					<option>202lbs</option>
+					<option>203lbs</option>
+					<option>204lbs</option>
+					<option>205lbs</option>
+					<option>206lbs</option>
+					<option>207lbs</option>
+					<option>208lbs</option>
+					<option>209lbs</option>
+					<option>210lbs</option>
+					<option>211lbs</option>
+					<option>212lbs</option>
+					<option>213lbs</option>
+					<option>214lbs</option>
+					<option>215lbs</option>
+					<option>216lbs</option>
+					<option>217lbs</option>
+					<option>218lbs</option>
+					<option>219lbs</option>
+					<option>220lbs</option>
+					<option>221lbs</option>
+					<option>222lbs</option>
+					<option>223lbs</option>
+					<option>224lbs</option>
+					<option>225lbs</option>
+					<option>226lbs</option>
+					<option>227lbs</option>
+					<option>228lbs</option>
+					<option>229lbs</option>
+					<option>230lbs</option>
+					<option>231lbs</option>
+					<option>232lbs</option>
+					<option>233lbs</option>
+					<option>234lbs</option>
+					<option>235lbs</option>
+					<option>236lbs</option>
+					<option>237lbs</option>
+					<option>238lbs</option>
+					<option>239lbs</option>
+					<option>240lbs</option>
+					<option>241lbs</option>
+					<option>242lbs</option>
+					<option>243lbs</option>
+					<option>244lbs</option>
+					<option>245lbs</option>
+					<option>246lbs</option>
+					<option>247lbs</option>
+					<option>248lbs</option>
+					<option>249lbs</option>
+					<option>250lbs</option>
+					<option>251lbs</option>
+					<option>252lbs</option>
+					<option>253lbs</option>
+					<option>254lbs</option>
+					<option>255lbs</option>
+					<option>256lbs</option>
+					<option>257lbs</option>
+					<option>258lbs</option>
+					<option>259lbs</option>
+					<option>260lbs</option>
+					<option>261lbs</option>
+					<option>262lbs</option>
+					<option>263lbs</option>
+					<option>264lbs</option>
+					<option>265lbs</option>
+					<option>266lbs</option>
+					<option>267lbs</option>
+					<option>268lbs</option>
+					<option>269lbs</option>
+					<option>270lbs</option>
+					<option>271lbs</option>
+					<option>272lbs</option>
+					<option>273lbs</option>
+					<option>274lbs</option>
+					<option>275lbs</option>
+					<option>276lbs</option>
+					<option>277lbs</option>
+					<option>278lbs</option>
+					<option>279lbs</option>
+					<option>280lbs</option>
+					<option>281lbs</option>
+					<option>282lbs</option>
+					<option>283lbs</option>
+					<option>284lbs</option>
+					<option>285lbs</option>
+					<option>286lbs</option>
+					<option>287lbs</option>
+					<option>288lbs</option>
+					<option>289lbs</option>
+					<option>290lbs</option>
+					<option>291lbs</option>
+					<option>292lbs</option>
+					<option>293lbs</option>
+					<option>294lbs</option>
+					<option>295lbs</option>
+					<option>296lbs</option>
+					<option>297lbs</option>
+					<option>298lbs</option>
+					<option>299lbs</option>
+					<option>300lbs</option>
+					<option>301lbs</option>
+					<option>302lbs</option>
+					<option>303lbs</option>
+					<option>304lbs</option>
+					<option>305lbs</option>
+					<option>306lbs</option>
+					<option>307lbs</option>
+					<option>308lbs</option>
+					<option>309lbs</option>
+					<option>310lbs</option>
+					<option>311lbs</option>
+					<option>312lbs</option>
+					<option>313lbs</option>
+					<option>314lbs</option>
+					<option>315lbs</option>
+					<option>316lbs</option>
+					<option>317lbs</option>
+					<option>318lbs</option>
+					<option>319lbs</option>
+					<option>320lbs</option>
+					<option>321lbs</option>
+					<option>322lbs</option>
+					<option>323lbs</option>
+					<option>324lbs</option>
+					<option>325lbs</option>
+					<option>326lbs</option>
+					<option>327lbs</option>
+					<option>328lbs</option>
+					<option>329lbs</option>
+					<option>330lbs</option>
+					<option>331lbs</option>
+					<option>332lbs</option>
+					<option>333lbs</option>
+					<option>334lbs</option>
+					<option>335lbs</option>
+					<option>336lbs</option>
+					<option>337lbs</option>
+					<option>338lbs</option>
+					<option>339lbs</option>
+					<option>340lbs</option>
+					<option>341lbs</option>
+					<option>342lbs</option>
+					<option>343lbs</option>
+					<option>344lbs</option>
+					<option>345lbs</option>
+					<option>346lbs</option>
+					<option>347lbs</option>
+					<option>348lbs</option>
+					<option>349lbs</option>
+					<option>350lbs</option>
+					<option>351lbs</option>
+					<option>352lbs</option>
+					<option>353lbs</option>
+					<option>354lbs</option>
+					<option>355lbs</option>
+					<option>356lbs</option>
+					<option>357lbs</option>
+					<option>358lbs</option>
+					<option>359lbs</option>
+					<option>360lbs</option>
+					<option>361lbs</option>
+					<option>362lbs</option>
+					<option>363lbs</option>
+					<option>364lbs</option>
+					<option>365lbs</option>
+					<option>366lbs</option>
+					<option>367lbs</option>
+					<option>368lbs</option>
+					<option>369lbs</option>
+					<option>370lbs</option>
+					<option>371lbs</option>
+					<option>372lbs</option>
+					<option>373lbs</option>
+					<option>374lbs</option>
+					<option>375lbs</option>
+					<option>376lbs</option>
+					<option>377lbs</option>
+					<option>378lbs</option>
+					<option>379lbs</option>
+					<option>380lbs</option>
+					<option>381lbs</option>
+					<option>382lbs</option>
+					<option>383lbs</option>
+					<option>384lbs</option>
+					<option>385lbs</option>
+					<option>386lbs</option>
+					<option>387lbs</option>
+					<option>388lbs</option>
+					<option>389lbs</option>
+					<option>390lbs</option>
+					<option>391lbs</option>
+					<option>392lbs</option>
+					<option>393lbs</option>
+					<option>394lbs</option>
+					<option>395lbs</option>
+					<option>396lbs</option>
+					<option>397lbs</option>
+					<option>398lbs</option>
+					<option>399lbs</option>
+					<option>400lbs</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>4: How tall are you?</td>
+			<td>
+				<select id="answer4">
+					<option>--Select--</option>
+					<option>48in</option>
+					<option>49in</option>
+					<option>50in</option>
+					<option>51in</option>
+					<option>52in</option>
+					<option>53in</option>
+					<option>54in</option>
+					<option>55in</option>
+					<option>56in</option>
+					<option>57in</option>
+					<option>58in</option>
+					<option>59in</option>
+					<option>60in</option>
+					<option>61in</option>
+					<option>62in</option>
+					<option>63in</option>
+					<option>64in</option>
+					<option>65in</option>
+					<option>66in</option>
+					<option>67in</option>
+					<option>68in</option>
+					<option>69in</option>
+					<option>70in</option>
+					<option>71in</option>
+					<option>72in</option>
+					<option>73in</option>
+					<option>74in</option>
+					<option>75in</option>
+					<option>76in</option>
+					<option>77in</option>
+					<option>78in</option>
+					<option>79in</option>
+					<option>80in</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>5: What is your primary goal?</td>
+			<td>
+				<select id="answer5">
+					<option>--Select--</option>
+					<option>Strength</option>
+					<option>Hypertrophy</option>
+					<option>Cardio</option>
+					<option>Posture</option>
+					<option>Muscular Endurance</option>
+					<option>Sports Performance</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>6: What is your secondary goal?</td>
+			<td>
+				<select id="answer6">
+					<option>--Select--</option>
+					<option>Strength</option>
+					<option>Hypertrophy</option>
+					<option>Cardio</option>
+					<option>Posture</option>
+					<option>Muscular Endurance</option>
+					<option>Sports Performance</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>7: What equipment do you have available?</td>
+			<td>
+				<select id="answer7">
+					<option>--Select--</option>
+					<option>Barbell</option>
+					<option>Dumbbells</option>
+					<option>Kettlebell</option>
+					<option>Pull-up Bar</option>
+					<option>Rings</option>
+					<option>No Equipment</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>8: Do you have any of the following injuries?</td>
+			<td>
+				<select id="answer8">
+					<option>--Select--</option>
+					<option>Muscle Sprain/Strain</option>
+					<option>Torn Ligament</option>
+					<option>Torn Tendon</option>
+					<option>Dislocated Joint</option>
+					<option>Broken/Fractured Bone</option>
+					<option>Not Applicable</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>9: Do you have any of these medical limitiations?</td>
+			<td>
+				<select id="answer9">
+					<option>--Select--</option>
+					<option>Hypertension</option>
+					<option>Diabetes</option>
+					<option>Cancer</option>
+					<option>Low Blood Pressure</option>
+					<option>Asthma</option>
+					<option>Arthritis</option>
+					<option>Dementia</option>
+					<option>Heart Disease</option>
+					<option>Multiple Sclerosis</option>
+					<option>Stroke</option>
+					<option>Osteoporosis</option>
+					<option>Not Applicable</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>10: Do you have any of the following conditions?</td>
+			<td>
+				<select id="answer10">
+					<option>--Select--</option>
+					<option>Amputation</option>
+					<option>Down's syndrome</option>
+					<option>Limited Mobility</option>
+					<option>Deafness/Hearing Loss</option>
+					<option>Blindness/Vision Loss</option>
+					<option>Autism Spectrum Disorder</option>
+					<option>Not Applicable</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>11: Are you currently taking any of the following hormone supplements?</td>
+			<td>
+				<select id="answer11">
+					<option>--Select--</option>
+					<option>Estrogen</option>
+					<option>Testosterone</option>
+					<option>Not Applicable</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>12: Do you have any of the following aches or pains throughout the day?</td>
+			<td>
+				<select id="answer12">
+					<option>--Select--</option>
+					<option>Chest</option>
+					<option>Elbows</option>
+					<option>Knees</option>
+					<option>Low Back</option>
+					<option>Neck</option>
+					<option>Shoulders</option>
+					<option>Wrists</option>
+					<option>No Pain</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>13: How many days a week can you commit to training?</td>
+			<td>
+				<select id="answer13">
+					<option>--Select--</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>14: What days can you train?</td>
+			<td>
+				<select id="answer14">
+					<option>--Select--</option>
+					<option>Sunday</option>
+					<option>Monday</option>
+					<option>Tuesday</option>
+					<option>Wednesday</option>
+					<option>Thursday</option>
+					<option>Friday</option>
+					<option>Saturday</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>15: How much time can you commit to each workout?</td>
+			<td>
+				<select id="answer15">
+					<option>--Select--</option>
+					<option>30 min</option>
+					<option>45 min</option>
+					<option>50 min</option>
+					<option>60 min</option>
+					<option>75 min</option>
+					<option>90 min</option>
+					<option>105 min</option>
+					<option>120 min</option>
+					<option>135 min</option>
+					<option>150 min</option>
+					<option>165 min</option>
+					<option>180 min</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>16: What's your current level of experience?</td>
+			<td>
+				<select id="answer16">
+					<option>--Select--</option>
+					<option>No Experience</option>
+					<option>Beginner</option>
+					<option>Intermediate</option>
+					<option>Expert</option>
+					<option>Professional</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+
+	<button href="#" id="finish" onclick="getOption()">Next</button>
+	<!--Table with question and answer column
+    Input via Javascript -->
+
+	 <!--User info needed
+ 	 Make the questionnaire multiple choice
+ 	1: Gender M/F
+ 	2: Age 
+ 	3: Weight lbs/kg
+ 	4: Height in/cm
+ 	5: What is your most important goal strength/hypertrophy/cardio/posture/muscular endurance/sports performance
+ 	6: What is your secondary goal strength/hypertrophy/cardio/posture/muscular endurance
+ 	7: What your available equipment barbell/dumbbells/kbs/no equipment/pull-up bar/rings
+ 	8: Do you have any of the following injuries 
+ 	9: Do you have any of these medical limitiations hypertension/diabetes/arthritis
+ 	10: Do you have any of the following aches or pains throughout the day low back/wrists/elbows/shoulders/knees/neck
+ 	11: How many days a week can you commit to training 2-7
+ 	12: What days can you train M-S
+ 	13: What range of time (pick 2) 30 minutes - 180 minutes
+ 	14: What's your level of experience never trained - athlete-->
+
+
+ 	<style type="text/css">
+ 		/*Questionnaire design*/
+ 		/*font-family: 'Expletus Sans', cursive;*/
+ 		body {
+ 			font-family: 'Expletus Sans', cursive;
+ 			text-transform: uppercase;
+ 		}
+
+
+ 		th {
+ 			font-size: 2em;
+ 		}
+
+ 	</style>
+
+ 	<script type="text/javascript">
+ 		var results = ['answer1', 'answer2']
+
+
+
+ 		function getOption() { 
+            selectElement = document.querySelector('#finish'); 
+            output = selectElement.options[selectElement.selectedIndex].value; 
+  			console.log(output);
+        }
+
+
+ 		//Questionnaire javascript
+ 	</script>
+<!--トラビスヒュ―ズ-->
+</body>
+</html>
