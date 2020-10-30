@@ -36,7 +36,7 @@
 			<td>1: What is your Gender?</td>
 			<td>
 				<select id="answer1"> 
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option value="Male">Male</option>
 					<option value="Female">Female</option>
 				</select>
@@ -46,7 +46,7 @@
 			<td>2: How old are you?</td>
 			<td>
 				<select id="answer2">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option value="8">8</option>
 					<option value="9">9</option>
 					<option value="10">10</option>
@@ -167,7 +167,7 @@
 			<td>3: How much do you weigh?</td>
 			<td>
 				<select id="answer3">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>60lbs</option>
 					<option>61lbs</option>
 					<option>62lbs</option>
@@ -516,7 +516,7 @@
 			<td>4: How tall are you?</td>
 			<td>
 				<select id="answer4">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>48in</option>
 					<option>49in</option>
 					<option>50in</option>
@@ -557,7 +557,7 @@
 			<td>5: What is your primary goal?</td>
 			<td>
 				<select id="answer5">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Strength</option>
 					<option>Hypertrophy</option>
 					<option>Cardio</option>
@@ -571,7 +571,7 @@
 			<td>6: What is your secondary goal?</td>
 			<td>
 				<select id="answer6">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Strength</option>
 					<option>Hypertrophy</option>
 					<option>Cardio</option>
@@ -585,7 +585,7 @@
 			<td>7: What equipment do you have available?</td>
 			<td>
 				<select id="answer7">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Barbell</option>
 					<option>Dumbbells</option>
 					<option>Kettlebell</option>
@@ -599,7 +599,7 @@
 			<td>8: Do you have any of the following injuries?</td>
 			<td>
 				<select id="answer8">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Muscle Sprain/Strain</option>
 					<option>Torn Ligament</option>
 					<option>Torn Tendon</option>
@@ -613,7 +613,7 @@
 			<td>9: Do you have any of these medical limitiations?</td>
 			<td>
 				<select id="answer9">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Hypertension</option>
 					<option>Diabetes</option>
 					<option>Cancer</option>
@@ -633,7 +633,7 @@
 			<td>10: Do you have any of the following conditions?</td>
 			<td>
 				<select id="answer10">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Amputation</option>
 					<option>Down's syndrome</option>
 					<option>Limited Mobility</option>
@@ -648,7 +648,7 @@
 			<td>11: Are you currently taking any of the following hormone supplements?</td>
 			<td>
 				<select id="answer11">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Estrogen</option>
 					<option>Testosterone</option>
 					<option>Not Applicable</option>
@@ -659,7 +659,7 @@
 			<td>12: Do you have any of the following aches or pains throughout the day?</td>
 			<td>
 				<select id="answer12">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Chest</option>
 					<option>Elbows</option>
 					<option>Knees</option>
@@ -675,7 +675,7 @@
 			<td>13: How many days a week can you commit to training?</td>
 			<td>
 				<select id="answer13">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>2</option>
 					<option>3</option>
 					<option>4</option>
@@ -689,7 +689,7 @@
 			<td>14: What days can you train?</td>
 			<td>
 				<select id="answer14">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>Sunday</option>
 					<option>Monday</option>
 					<option>Tuesday</option>
@@ -704,7 +704,7 @@
 			<td>15: How much time can you commit to each workout?</td>
 			<td>
 				<select id="answer15">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>30 min</option>
 					<option>45 min</option>
 					<option>50 min</option>
@@ -724,7 +724,7 @@
 			<td>16: What's your current level of experience?</td>
 			<td>
 				<select id="answer16">
-					<option>--Select--</option>
+					<option disabled selected>--Select--</option>
 					<option>No Experience</option>
 					<option>Beginner</option>
 					<option>Intermediate</option>
@@ -735,7 +735,7 @@
 		</tr>
 	</table>
 
-	<button href="#" id="finish" onclick="getOption()">Next</button>
+	<button href="#" onclick="getOption()">Next</button>
 	<!--Table with question and answer column
     Input via Javascript -->
 
@@ -773,8 +773,11 @@
  	</style>
 
  	<script type="text/javascript">
-	
-		function getOption() { 
+ 		
+
+
+
+ 		function getOption() { 
             firstAnswer = document.querySelector('#answer1'); 
             output = firstAnswer.options[firstAnswer.selectedIndex].value; 
   			console.log(output);
@@ -839,7 +842,6 @@
             outputP = sixteenthAnswer.options[sixteenthAnswer.selectedIndex].value; 
   			console.log(outputP);
         }
-
 
 
  		//Questionnaire javascript
