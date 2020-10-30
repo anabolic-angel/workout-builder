@@ -773,14 +773,73 @@
  	</style>
 
  	<script type="text/javascript">
-
-
-
- 		function getOption() { 
-            selectElement = document.querySelector('#finish'); 
-            output = selectElement.options[selectElement.selectedIndex].value; 
+	
+		function getOption() { 
+            firstAnswer = document.querySelector('#answer1'); 
+            output = firstAnswer.options[firstAnswer.selectedIndex].value; 
   			console.log(output);
+
+  			secondAnswer = document.querySelector('#answer2'); 
+            outputB = secondAnswer.options[secondAnswer.selectedIndex].value; 
+  			console.log(outputB);
+
+  			thirdAnswer = document.querySelector('#answer3'); 
+            outputC = thirdAnswer.options[thirdAnswer.selectedIndex].value; 
+  			console.log(outputC);
+
+  			fourthAnswer = document.querySelector('#answer4'); 
+            outputD = fourthAnswer.options[fourthAnswer.selectedIndex].value; 
+  			console.log(outputD);
+
+  			fifthAnswer = document.querySelector('#answer5'); 
+            outputE = fifthAnswer.options[fifthAnswer.selectedIndex].value; 
+  			console.log(outputE);
+
+  			sixthAnswer = document.querySelector('#answer6'); 
+            outputF = sixthAnswer.options[sixthAnswer.selectedIndex].value; 
+  			console.log(outputF);
+
+  			seventhAnswer = document.querySelector('#answer7'); 
+            outputG = seventhAnswer.options[seventhAnswer.selectedIndex].value; 
+  			console.log(outputG);
+
+  			eighthAnswer = document.querySelector('#answer8'); 
+            outputH = eighthAnswer.options[eighthAnswer.selectedIndex].value; 
+  			console.log(outputH);
+
+  			ninthAnswer = document.querySelector('#answer9'); 
+            outputI = ninthAnswer.options[ninthAnswer.selectedIndex].value; 
+  			console.log(outputI);
+
+  			tenthAnswer = document.querySelector('#answer10'); 
+            outputJ = tenthAnswer.options[tenthAnswer.selectedIndex].value; 
+  			console.log(outputJ);
+
+  			eleventhAnswer = document.querySelector('#answer11'); 
+            outputK = eleventhAnswer.options[eleventhAnswer.selectedIndex].value; 
+  			console.log(outputK);
+
+  			twelfthAnswer = document.querySelector('#answer12'); 
+            outputL = twelfthAnswer.options[twelfthAnswer.selectedIndex].value; 
+  			console.log(outputL);
+
+  			thirteenthAnswer = document.querySelector('#answer13'); 
+            outputM = thirteenthAnswer.options[thirteenthAnswer.selectedIndex].value; 
+  			console.log(outputM);
+
+  			fourteenthAnswer = document.querySelector('#answer14'); 
+            outputN = fourteenthAnswer.options[fourteenthAnswer.selectedIndex].value; 
+  			console.log(outputN);
+
+  			fifteenthAnswer = document.querySelector('#answer15'); 
+            outputO = fifteenthAnswer.options[fifteenthAnswer.selectedIndex].value; 
+  			console.log(outputO);
+
+  			sixteenthAnswer = document.querySelector('#answer16'); 
+            outputP = sixteenthAnswer.options[sixteenthAnswer.selectedIndex].value; 
+  			console.log(outputP);
         }
+
 
 
  		//Questionnaire javascript
